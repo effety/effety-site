@@ -1,0 +1,22 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-BRTVPh9_.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-DF8cWCQj.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-DvB2Xm2x.css"
+    ]
+  },
+  "resources/js/vanilla-tilt.js": {
+    "file": "assets/vanilla-tilt-HiZuOenx.js",
+    "name": "vanilla-tilt",
+    "src": "resources/js/vanilla-tilt.js",
+    "isEntry": true
+  }
+}

@@ -38,8 +38,9 @@ return [
     'guards' => [
         'web' => [
             'driver' => 'session',
-            'provider' => 'users',
+            'provider' => 'admin', 
         ],
+
     ],
 
     /*
@@ -60,15 +61,10 @@ return [
     */
 
     'providers' => [
-        'users' => [
+        'admin' => [
             'driver' => 'eloquent',
-            'model' => App\Models\User::class,
+            'model' => App\Models\Admin::class,
         ],
-
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
     ],
 
     /*
@@ -98,7 +94,10 @@ return [
             'throttle' => 60,
         ],
     ],
-
+    'throttle' => [
+        'maxAttempts' => 10, // Increase the number of attempts
+        'decayMinutes' => 1, // Set how many minutes to wait before the user can try again
+    ],
     /*
     |--------------------------------------------------------------------------
     | Password Confirmation Timeout

@@ -1,0 +1,160 @@
+:root {
+    --black: #000;
+    --white: #ffffff;
+    --white-light: #F1F1F1;
+    --light-dark: #2F2F2F;
+    --light-darker: #424242;
+    --dark_first: #212121;
+    --secondary-light: #878787;
+    --info-color: #4D91FF;
+    --danger-color: #F00500;
+    --btn-read: #2B2B2B;
+    --dark_second: #313131;
+    --lighter-color: #626D7D;
+    --blue: #470496;
+    --bg-dark-1: #2B2F36;
+    --green: #0ECB81;
+    --red: #F6465D;
+  }
+  body{
+    font-family: 'Inter',sans-serif;
+  }
+  .bg-dark{
+    background: var(--light-dark);
+  }
+  .bg-green{
+    background: var(--green);
+  }
+  .bg-red{
+    background: var(--red);
+  }
+  .bg-darker{
+    background: var(--light-darker);
+    opacity: 60%;
+  }
+  .bg-dark-1{
+    background: var(--bg-dark-1);
+  }
+  .bg-dark-2{
+    background: var(--dark_second);
+  }
+  .color-info{
+    color: var(--info-color);
+  }
+  .price-color{
+    color: var(--lighter-color);
+  }
+  .color-danger{
+    color: var(--danger-color);
+  }
+  .color-crypto{
+    color: var(--dark_first);
+  }
+  .white-light{
+    color: var(--white-light);
+  }
+  .bg-read{
+     background: var(--btn-read);
+  }
+  .blue-color{
+    color: var(--blue);
+  }
+  .card-body{
+    background-color: var(--white);
+  }
+  .padding-7{
+    padding: 0.7rem;
+  }
+  .size-16,
+  .font-16{
+    font-size: 16px;
+  }
+  .font-10{
+    font-size: 10px;
+  }
+  .font-9{
+    font-size: 9px;
+  }
+  .font-12{
+    font-size: 12px;
+  }
+  .font-14{
+    font-size: 14px;
+  }
+  .font-15{
+    font-size: 15px;
+  }
+  .font-17{
+    font-size: 17px;
+  }
+  .font-20{
+    font-size: 20px;
+  }
+  .semi-bold{
+    font-weight: 600;
+  }
+  .bold-weight{
+    font-weight: 700;
+  }
+  .medium-weight{
+   font-weight: 500;
+  }
+  .regular-weight{
+   font-weight: 400;
+  }
+  .extra-bold-weight{
+    font-weight: 800;
+  }
+  .border-15{
+    border-radius: 15px;
+  }
+  .border-20{
+    border-radius: 20px;
+  }
+  .border-10{
+    border-radius: 10px;
+  }
+  .calander{
+    width: 7%;
+  }
+  .custom-select{
+    background-image: url('./image/chevron-down\ 1.svg');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px 16px;
+    padding-right: 30px; /* Ensure space for the arrow */
+    -moz-appearance: none; /* Remove default dropdown styling for Firefox */
+    -webkit-appearance: none; /* Remove default dropdown styling for Safari/Chrome */
+    appearance: none; /* Remove default dropdown styling */
+}
+.list-color{
+    color: var(--secondary-light);
+    margin-bottom: 1.5rem;
+}
+.margin-b25{
+    margin-bottom: 25px;
+}
+.Indicators-img{
+    width: 900px;
+}
+.right-border{
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.top-border{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.btn-read{
+    padding: 3% 28%;
+}
+.opacity-75{
+    opacity: 75%;
+}
+.padding-tab{
+    padding: 0.4rem 0.6rem;
+}
+.border-5{
+    border-radius: 5px;
+}
+.btn-more{
+  padding: 2% 6%;
+}

@@ -30,5 +30,11 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
-
+    'stripe' => [
+        'secret' => env('STRIPE_SECRET'),
+    ],
+    'recaptcha' => [
+        'site_key' => env('APP_ENV') === 'local' ? '6LeiUTcqAAAAAAHY5f5hnFOapV4BKtZLbinmJfuW' : env('RECAPTCHA_SITE_KEY'),
+        'secret_key' => env('APP_ENV') === 'local' ? '6LeiUTcqAAAAANjPkesTa5MxgO_uLBmYCaBEaxjp' : env('RECAPTCHA_SECRET_KEY'),
+    ],
 ];
