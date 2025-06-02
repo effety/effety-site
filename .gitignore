@@ -1,6 +1,5 @@
 /.phpunit.cache
 /node_modules
-/public/build
 /public/hot
 /public/storage
 /storage/*.key
@@ -17,3 +16,18 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+# *.bmp
+# *.tiff
+# *.ico
+# *.svg
+# *.pdf
+# /public/images/
+/public/pdfs/books/
+!.gitkeep
+# /public/doctor-panel/survey_categories/
+# /public/doctor-panel/coupons_categories/
+
