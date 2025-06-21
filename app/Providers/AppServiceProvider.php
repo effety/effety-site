@@ -27,9 +27,9 @@ class AppServiceProvider extends ServiceProvider
         //     $view->with('user', $user);
         // });
         
-        view()->share('countries', getCountries());
-        view()->share('languages', getLanguages());
-        view()->share('getNecCategories', getNecCategories());
-        view()->share('cities', getCities());
+        // view()->share('countries', getCountries());
+        // view()->share('languages', getLanguages());
+        // view()->share('getNecCategories', getNecCategories());
+        // view()->share('cities', getCities());
     }
 }

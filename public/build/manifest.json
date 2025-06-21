@@ -1,22 +1,15 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-BRTVPh9_.css",
-    "src": "resources/css/app.css",
-    "isEntry": true
+    "file": "assets/app-QzX5TVuy.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
   },
   "resources/js/app.js": {
-    "file": "assets/app-DF8cWCQj.js",
-    "name": "app",
-    "src": "resources/js/app.js",
-    "isEntry": true,
     "css": [
-      "assets/app-DvB2Xm2x.css"
-    ]
-  },
-  "resources/js/vanilla-tilt.js": {
-    "file": "assets/vanilla-tilt-HiZuOenx.js",
-    "name": "vanilla-tilt",
-    "src": "resources/js/vanilla-tilt.js",
-    "isEntry": true
+      "assets/app-B0a9OMnn.css"
+    ],
+    "file": "assets/app-DcP3NhFM.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
   }
 }
